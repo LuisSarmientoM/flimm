@@ -1,0 +1,935 @@
+{
+  "evento": "Feria del libro Montes de María 2026",
+  "mapeoHeaders": {
+    "ITEM": "item",
+    "DIA": "fecha",
+    "HORARIO": "horario",
+    "TIPO DE ACTO": "tipo",
+    "NOMBRE DEL ACTO": "nombre",
+    "PATICIPANTES": "participantes",
+    "INFORMACION DEL ACTO": "info",
+    "SEDES": "sede"
+  },
+  "programacion": [
+    {
+      "item": 1,
+      "fecha": "2026-03-20",
+      "horario": "15:00-15:45",
+      "tipo": "APERTURA",
+      "nombre": "Inauguración de la FLIMM (acto protocolario)",
+      "participantes": "Ministro de Educación · Alcaldesa Municipal · Dirección FLIMM · editoriales · escritores y poetas invitados",
+      "info": "Acto protocolario con intervención de autoridades y organizadores.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 2,
+      "fecha": "2026-03-20",
+      "horario": "15:45-16:00",
+      "tipo": "EXPOSICIONES",
+      "nombre": "Apertura de stands de libros",
+      "participantes": "Ministro de Educación · Alcaldesa Municipal · Dirección FLIMM · editoriales · escritores y poetas invitados",
+      "info": "Recorrido por los stands de las editoriales y demás expositores.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 3,
+      "fecha": "2026-03-20",
+      "horario": "16:00-18:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: \"Hacia un nuevo Modelo de Educación en Colombia\"",
+      "participantes": "Daniel Rojas · Orlando de Oro · Lorenza Carmona · Ministro de Educación · rectores I.E.",
+      "info": "Ministro de Educación y rectores de I.E. de San Jacinto, San Juan Nepomuceno y El Carmen de Bolívar.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 4,
+      "fecha": "2026-03-20",
+      "horario": "18:00-18:30",
+      "tipo": "ACTO MUSICAL",
+      "nombre": "Escuelas infantiles de música de gaita",
+      "participantes": "Escuela \"Gaiteros de San Jacinto\" · Fumigaita",
+      "info": "Interpretaciones musicales por los integrantes de las escuelas.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 5,
+      "fecha": "2026-03-20",
+      "horario": "19:00-22:00",
+      "tipo": "CONCIERTO",
+      "nombre": "Concierto de música de gaitas y cuentería",
+      "participantes": "Colectivo de músicos de San Jacinto",
+      "info": "Presentación de gaiteros de diferentes grupos y narradores orales para inaugurar la feria.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 6,
+      "fecha": "2026-03-21",
+      "horario": "08:00-17:00",
+      "tipo": "EXPOSICIONES",
+      "nombre": "Stands de libros (editoriales y libreros)",
+      "participantes": "Editoriales confirmadas",
+      "info": "Visita a los stands de las editoriales y demás expositores.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 7,
+      "fecha": "2026-03-21",
+      "horario": "09:00-09:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"Mundo de Rosas, el anhelo de la inocencia\"",
+      "participantes": "Gustavo Pacheco Castro",
+      "info": "Presentado por Editorial Punto y Coma de Bogotá.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 8,
+      "fecha": "2026-03-21",
+      "horario": "09:30-10:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"El pez muere por la boca\"",
+      "participantes": "Santiago Escobar-Jaramillo",
+      "info": "Presentado por Raya Editorial y Matiz Editorial de Manizales.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 9,
+      "fecha": "2026-03-21",
+      "horario": "10:00-10:30",
+      "tipo": "RECITAL",
+      "nombre": "Recital poético y performance",
+      "participantes": "Estudiantes (I.E.)",
+      "info": "Recital poético y performance.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 10,
+      "fecha": "2026-03-21",
+      "horario": "10:30-11:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: \"Encuentro de culturas, Lengua y Diversidad\" (diccionario de expresiones del Caribe)",
+      "participantes": "Favio Sarmiento Sequeda · Nolbert Alberto Arboleda",
+      "info": "Presentados por Editorial de la Universidad San Buenaventura de Cartagena.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 11,
+      "fecha": "2026-03-21",
+      "horario": "11:00-11:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"La tierra sin sentido\"",
+      "participantes": "Julián Beltrán",
+      "info": "Presentado por Editorial Páginas de Agua de Corozal.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 12,
+      "fecha": "2026-03-21",
+      "horario": "11:30-12:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Antología En Piel de Mujer",
+      "participantes": "Escritoras de Sucre",
+      "info": "Presentado por Editorial Páginas de Agua de Corozal.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 13,
+      "fecha": "2026-03-21",
+      "horario": "14:00-15:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: Antologías \"Cenizas al Viento\" y \"El Vuelo de la Cigarra\"",
+      "participantes": "Favio Sarmiento Sequeda · Nolbert Alberto Arboleda",
+      "info": "Presentados por Editorial de la Universidad San Buenaventura de Cartagena.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 14,
+      "fecha": "2026-03-21",
+      "horario": "15:00-15:30",
+      "tipo": "CONVERSACION",
+      "nombre": "Conversación: \"Escribir y enseñar poesía\"",
+      "participantes": "Camila Charry · Óscar Daniel Campo",
+      "info": "Presentado por Himpar Editores de Bogotá.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 15,
+      "fecha": "2026-03-21",
+      "horario": "15:30-16:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Lanzamiento: Revista Mapaná #1 (antología de cómics)",
+      "participantes": "Hélène Pineda · Omar Pineda · Adrián H. Castilla",
+      "info": "Mapaná Revista de Cómics de Cartagena.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 16,
+      "fecha": "2026-03-21",
+      "horario": "16:00-16:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación: \"El plagio y el derecho de autor en la música caribeña (2ª ed.)\"",
+      "participantes": "Carlos Alberto Ramos",
+      "info": "Presentado por Sello Editorial Fundalibros de Santa Marta.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 17,
+      "fecha": "2026-03-21",
+      "horario": "16:30-17:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación: \"Manual de Autoterapia en 12 meses\"",
+      "participantes": "Diana Cecilia Gómez Miranda",
+      "info": "Presentado por Editorial Punto y Coma de Bogotá.",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 18,
+      "fecha": "2026-03-21",
+      "horario": "09:00-10:30",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio + música de gaita: Dinastía Hermanos Castro",
+      "participantes": "Rafael · Pascual · Manuel · Adolfo Castro Fernández",
+      "info": "Conversatorio entre los hermanos Castro sobre su vida, composiciones, grupos y premios.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 19,
+      "fecha": "2026-03-21",
+      "horario": "10:30-11:30",
+      "tipo": "PONENCIA",
+      "nombre": "Ponencia: \"Chinú, tras las huellas de la abarca tres puntá\"",
+      "participantes": "Yaneth Álvarez",
+      "info": "Investigación sobre uno de los íconos de la cultura Caribe: la abarca tres puntá.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 20,
+      "fecha": "2026-03-21",
+      "horario": "11:30-12:30",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: \"Entre el bosque seco tropical y la música tradicional\"",
+      "participantes": "Juliana Galvis y luthiers de San Jacinto",
+      "info": "Conversatorio sobre el impacto de la luthería en el medio ambiente y el ecosistema de los Montes de María.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 21,
+      "fecha": "2026-03-21",
+      "horario": "12:30-14:00",
+      "tipo": "ACTO MUSICAL",
+      "nombre": "Música de gaita + danza tradicional",
+      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe · Avel/Abel Viana",
+      "info": "Presentación de escuelas de gaita acompañadas de danza para amenizar el almuerzo.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 22,
+      "fecha": "2026-03-21",
+      "horario": "14:00-14:30",
+      "tipo": "TALLER",
+      "nombre": "Taller: Luthería tradicional de tambores",
+      "participantes": "Maestro Gabriel Torregrosa",
+      "info": "Taller de luthería de instrumentos de percusión para jóvenes.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 23,
+      "fecha": "2026-03-21",
+      "horario": "14:30-15:00",
+      "tipo": "CLINICA",
+      "nombre": "Clínica: Percusión de gaita sanjacintera",
+      "participantes": "Maestro Gabriel Torregrosa",
+      "info": "Clínica de percusión de gaita sanjacintera.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 24,
+      "fecha": "2026-03-21",
+      "horario": "15:00-17:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio + música de gaita: Dinastía Rodríguez",
+      "participantes": "Fundación Cuna de Gaiteros (Familia Rodríguez)",
+      "info": "Conversatorio con la familia Rodríguez sobre su vida, composiciones, grupos y premios.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 25,
+      "fecha": "2026-03-21",
+      "horario": "19:00-22:00",
+      "tipo": "CONCIERTO",
+      "nombre": "Concierto de música de gaita y oralidad",
+      "participantes": "Colectivo de músicos de San Jacinto",
+      "info": "Presentación de gaiteros de diferentes grupos y narradores orales.",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 26,
+      "fecha": "2026-03-21",
+      "horario": "09:00-09:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libros: \"Cantos y décimas de Amor y Fe (Libro II)\" / \"Te cuento en breve\"",
+      "participantes": "José Lora · Hernán Pimienta",
+      "info": "Presentados por la editorial del taller literario Clemente Manuel Zabala de San Jacinto.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 27,
+      "fecha": "2026-03-21",
+      "horario": "09:30-10:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación poemario: \"Obumbrata\"",
+      "participantes": "Joel Linares",
+      "info": "Presentación del poemario por Joel Linares, director del Encuentro Poético del Sur.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 28,
+      "fecha": "2026-03-21",
+      "horario": "10:00-11:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación proyecto: \"La Ruta de los 400 años de Plato (1636-2026)\"",
+      "participantes": "Alfonso Amador Fernández · Germán Lajud Rico",
+      "info": "Investigación histórica realizada por la Institución Educativa Luis Carlos Galán.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 29,
+      "fecha": "2026-03-21",
+      "horario": "11:00-11:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"Jarupia\"",
+      "participantes": "Chino Romero Hoyos",
+      "info": "Narra el viaje de Alejo, un joven de la ciénaga de Ayapel que busca nuevas oportunidades.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 30,
+      "fecha": "2026-03-21",
+      "horario": "11:30-12:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"Montes y Ríos escriben la paz\"",
+      "participantes": "CEPDIPO",
+      "info": "Libro del proyecto de Memoria y Reconciliación escrito por firmantes del proceso de paz.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 31,
+      "fecha": "2026-03-21",
+      "horario": "14:00-14:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: \"Este desastre que ves aquí\"",
+      "participantes": "Jorge Elías Salas Fuentes",
+      "info": "Poemario tejido con ausencias, añoranzas y luces de esperanza.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 32,
+      "fecha": "2026-03-21",
+      "horario": "14:30-15:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación novela: \"Sentencia anticipada\"",
+      "participantes": "Nacha Newball Jiménez",
+      "info": "Novela para quienes disfrutan de historias donde nada es lo que parece.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 33,
+      "fecha": "2026-03-21",
+      "horario": "15:00-15:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación libro: Novela \"El Pacto\"",
+      "participantes": "Iveth Hernández Rodríguez",
+      "info": "Novela realizada a dos manos con la escritora Sandra Puentes.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 34,
+      "fecha": "2026-03-21",
+      "horario": "15:30-16:30",
+      "tipo": "PRESENTACIÓN LIBRO",
+      "nombre": "Materiales educativos sobre uso y conservación del bosque seco tropical",
+      "participantes": "Edgardo Torres y Rodolfo Barrios",
+      "info": "Experiencia pedagógica presentada por la IETA San Juan Nepomuceno.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 35,
+      "fecha": "2026-03-21",
+      "horario": "09:00-10:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: Fortalecimiento de la memoria viva de los Montes de María",
+      "participantes": "Hegel Ortega · Heydi Montes",
+      "info": "Panelistas pertenecientes a la Secretaría de Educación y la Red de Bibliotecas del departamento.",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 36,
+      "fecha": "2026-03-21",
+      "horario": "10:00-10:30",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Acto artístico",
+      "participantes": "Grupo del Pío XII",
+      "info": "",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 37,
+      "fecha": "2026-03-21",
+      "horario": "10:30-11:30",
+      "tipo": "PONENCIA",
+      "nombre": "Ponencia: Vida y obra de Clemente Manuel Zabala",
+      "participantes": "Tomás Vázquez Arrieta",
+      "info": "Investigación realizada por el ponente por más de 10 años sobre Clemente Manuel Zabala.",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 38,
+      "fecha": "2026-03-21",
+      "horario": "11:30-12:30",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio: Política y literatura",
+      "participantes": "Pablo Lautaro · Joel Linares · Nicolás de la Cruz Picalúa",
+      "info": "Conversan sobre la incidencia de la política en la literatura y su abordaje por escritores y poetas.",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 39,
+      "fecha": "2026-03-21",
+      "horario": "14:00-15:00",
+      "tipo": "PRESENTACIÓN Y LECTURAS",
+      "nombre": "Presentación y lecturas: ReparArte",
+      "participantes": "Estudiantes y profesor Fredy Dávila (Universidad de Cartagena)",
+      "info": "Lectura de textos estudiantiles sobre memoria y cultura de paz en Montes de María.",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 40,
+      "fecha": "2026-03-21",
+      "horario": "15:00-15:30",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Acto artístico",
+      "participantes": "Grupo del Pío XII",
+      "info": "",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 41,
+      "fecha": "2026-03-21",
+      "horario": "15:30-16:30",
+      "tipo": "PONENCIA",
+      "nombre": "Ponencia: Políticas culturales desde la Constitución de 1991",
+      "participantes": "Nicolás de la Cruz Picalúa",
+      "info": "Reflexión sobre las políticas culturales desde la Constitución de 1991 y su contraste con la realidad actual.",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 42,
+      "fecha": "2026-03-21",
+      "horario": "09:00-10:30",
+      "tipo": "TALLER",
+      "nombre": "Taller literario: \"Jugando con la ortografía\"",
+      "participantes": "Jerson Ledezma",
+      "info": "Conducido por Editorial Punto y Coma de Bogotá.",
+      "sede": "Atrapasueños"
+    },
+    {
+      "item": 43,
+      "fecha": "2026-03-21",
+      "horario": "10:30-12:00",
+      "tipo": "ACTIVIDAD",
+      "nombre": "Origami: \"El Principito: Sueños que se pliegan en papel\"",
+      "participantes": "Óscar Alexander Ballesteros Torralvo",
+      "info": "Taller que integra origami como herramienta educativa para fortalecer creatividad y concentración.",
+      "sede": "Atrapasueños"
+    },
+    {
+      "item": 44,
+      "fecha": "2026-03-21",
+      "horario": "14:00-15:30",
+      "tipo": "TALLER",
+      "nombre": "Taller de escritura: \"Cartas desde los Montes de María\"",
+      "participantes": "Duban Álvarez Cabrales",
+      "info": "Taller de escritura creativa para producir cartas personales o ficcionales desde memoria e imaginación.",
+      "sede": "Atrapasueños"
+    },
+    {
+      "item": 45,
+      "fecha": "2026-03-21",
+      "horario": "09:00-10:30",
+      "tipo": "TALLER",
+      "nombre": "Taller artes plásticas: \"Reescrituras visuales\"",
+      "participantes": "Jaidivis Mora T.",
+      "info": "Taller de collage a partir de la obra de Fernando Machado.",
+      "sede": "Ecléptica"
+    },
+    {
+      "item": 46,
+      "fecha": "2026-03-21",
+      "horario": "10:30-12:00",
+      "tipo": "TALLER",
+      "nombre": "Taller cómics: \"Mi primer cómic\"",
+      "participantes": "Hélène Pineda · Adrián H. Castilla · Omar Pineda",
+      "info": "Taller interactivo para jóvenes sobre creación de cómic y narrativa en viñetas.",
+      "sede": "Ecléptica"
+    },
+    {
+      "item": 47,
+      "fecha": "2026-03-21",
+      "horario": "14:00-15:30",
+      "tipo": "TALLER",
+      "nombre": "Taller creación literaria: \"Décimas para no olvidar\"",
+      "participantes": "Brillith Carolina Sossa Wilches",
+      "info": "Narrativas para construir memoria y cultura de paz desde la décima y la letanía.",
+      "sede": "Ecléptica"
+    },
+    {
+      "item": 48,
+      "fecha": "2026-03-21",
+      "horario": "09:00-16:00",
+      "tipo": "EXPOSICIONES",
+      "nombre": "Feria y Exposición Artesanal",
+      "participantes": "Maestras artesanas · Artesanías de Colombia",
+      "info": "Exhibición de productos artesanales de San Jacinto",
+      "sede": "Casa del Artesano"
+    },
+    {
+      "item": 49,
+      "fecha": "2026-03-21",
+      "horario": "10:00-12:00",
+      "tipo": "TALLER",
+      "nombre": "Rueda de Saberes con Maestras Artesanas",
+      "participantes": "Maestras artesanas · Artesanías de Colombia",
+      "info": "Espacio para compartir conocimientos y técnicas con demostración artesanal en vivo",
+      "sede": "Casa del Artesano"
+    },
+    {
+      "item": 50,
+      "fecha": "2026-03-21",
+      "horario": "09:00-10:00",
+      "tipo": "TALLER",
+      "nombre": "Taller de Escritura Creativa: La Cartografía Literaria",
+      "participantes": "Dalenis Amalia González Villegas",
+      "info": "Taller para estudiantes de secundaria y media sobre observación, memoria y mapas narrativos",
+      "sede": "Biblioteca Clemente Manuel Zabala"
+    },
+    {
+      "item": 51,
+      "fecha": "2026-03-21",
+      "horario": "10:00-11:00",
+      "tipo": "CONVERSACION",
+      "nombre": "Federico Santodomingo conversa verso a verso con Rodolfo Sarmiento",
+      "participantes": "Federico Santodomingo · Rodolfo Sarmiento",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Biblioteca Clemente Manuel Zabala"
+    },
+    {
+      "item": 52,
+      "fecha": "2026-03-21",
+      "horario": "11:00-12:00",
+      "tipo": "TALLER",
+      "nombre": "Álbum Familiar y Archivo Fotográfico",
+      "participantes": "Santiago Escobar-Jaramillo",
+      "info": "Ejercicios teórico-prácticos sobre álbum familiar y archivo fotográfico",
+      "sede": "Biblioteca Clemente Manuel Zabala"
+    },
+    {
+      "item": 53,
+      "fecha": "2026-03-21",
+      "horario": "12:00-12:30",
+      "tipo": "PRESENTACION",
+      "nombre": "X Foro del Pensamiento Crítico: El Despertar Cultural",
+      "participantes": "Profesor de la I.E. María Inmaculada (El Carmen de Bolívar)",
+      "info": "Explicación y promoción del evento",
+      "sede": "Biblioteca Clemente Manuel Zabala"
+    },
+    {
+      "item": 54,
+      "fecha": "2026-03-21",
+      "horario": "09:00-09:30",
+      "tipo": "CONFERENCIA",
+      "nombre": "Conferencia del Pensamiento Crítico: El Despertar Cultural",
+      "participantes": "José Gabriel Coley",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 55,
+      "fecha": "2026-03-21",
+      "horario": "09:30-10:00",
+      "tipo": "PRESENTACIÓN LIBRO",
+      "nombre": "Tortuga Marina, Guardianes del Océano",
+      "participantes": "Carmen Edith Jaramillo Ospino",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 56,
+      "fecha": "2026-03-21",
+      "horario": "10:00-10:30",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Presentación grupo artístico Colegio León XIII",
+      "participantes": "Grupo artístico Colegio León XIII",
+      "info": "",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 57,
+      "fecha": "2026-03-21",
+      "horario": "10:30-11:00",
+      "tipo": "PRESENTACIÓN LIBRO",
+      "nombre": "Antología El Caribe es un Cuento",
+      "participantes": "Guillermo Luis Nieto Molina",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 58,
+      "fecha": "2026-03-21",
+      "horario": "11:00-12:00",
+      "tipo": "CONFERENCIA",
+      "nombre": "Décima Sinuana y Décima Sanjacintera: Coincidencias y diferencias",
+      "participantes": "Roberto Yances Torres",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 59,
+      "fecha": "2026-03-21",
+      "horario": "12:00-12:30",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Portafolio Artístico",
+      "participantes": "Silvia Gómez Severiche",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Institución Educativa León XIII"
+    },
+    {
+      "item": 60,
+      "fecha": "2026-03-21",
+      "horario": "19:00-21:00",
+      "tipo": "RECITAL",
+      "nombre": "Recital poético",
+      "participantes": "Poetas asistentes a la FLIMM",
+      "info": "Lectura de poemas de tema libre",
+      "sede": "Plaza Santa Lucía"
+    },
+    {
+      "item": 61,
+      "fecha": "2026-03-21",
+      "horario": "19:00-21:00",
+      "tipo": "RECITAL",
+      "nombre": "Recital poético",
+      "participantes": "Poetas asistentes a la FLIMM",
+      "info": "Lectura de poemas de tema libre",
+      "sede": "Parque de los Gaiteros"
+    },
+    {
+      "item": 62,
+      "fecha": "2026-03-21",
+      "horario": "19:00-21:00",
+      "tipo": "RECITAL",
+      "nombre": "Recital poético",
+      "participantes": "Poetas asistentes a la FLIMM",
+      "info": "Lectura de poemas de tema libre",
+      "sede": "Cancha La Bajera"
+    },
+    {
+      "item": 63,
+      "fecha": "2026-03-22",
+      "horario": "09:00-10:30",
+      "tipo": "PONENCIA",
+      "nombre": "Pobreza y cultura",
+      "participantes": "Valeria Ayola Betancourt",
+      "info": "Tesis doctoral en sociología sobre la noción de desarrollo en San Jacinto",
+      "sede": "Hostal El Telar"
+    },
+    {
+      "item": 64,
+      "fecha": "2026-03-22",
+      "horario": "10:30-12:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Experiencias taller literario Cantos de Juyá de La Guajira",
+      "participantes": "Ángel Alberto Roys Mejía",
+      "info": "Experiencia del taller literario adscrito a la red Relata",
+      "sede": "Hostal El Telar"
+    },
+    {
+      "item": 65,
+      "fecha": "2026-03-22",
+      "horario": "09:00-10:30",
+      "tipo": "TALLER",
+      "nombre": "Taller infantil: Mi personaje vive en mi dedo",
+      "participantes": "Betty María Cuadrado",
+      "info": "Taller para niños de primaria de creación de historias con títeres",
+      "sede": "Hostal Améfrica"
+    },
+    {
+      "item": 66,
+      "fecha": "2026-03-22",
+      "horario": "10:30-12:00",
+      "tipo": "PONENCIA",
+      "nombre": "Conversación sobre el libro La casa de los García Márquez",
+      "participantes": "Gabriel Eligio Torres García",
+      "info": "Conversación a partir de anécdotas familiares reunidas en el libro",
+      "sede": "Hostal Améfrica"
+    },
+    {
+      "item": 67,
+      "fecha": "2026-03-22",
+      "horario": "09:00-10:30",
+      "tipo": "TALLER",
+      "nombre": "Emanar algo sutilísimo: taller de escritura, aroma y olfato",
+      "participantes": "María Buelvas · Camilo Falla",
+      "info": "Taller para escritores interesados en experimentar otros caminos para la creación",
+      "sede": "Matuya"
+    },
+    {
+      "item": 68,
+      "fecha": "2026-03-22",
+      "horario": "10:30-12:00",
+      "tipo": "TALLER",
+      "nombre": "Ortopedia de la estética",
+      "participantes": "Joel Linares",
+      "info": "Herramientas para el análisis de manifestaciones artísticas contemporáneas",
+      "sede": "Matuya"
+    },
+    {
+      "item": 69,
+      "fecha": "2026-03-22",
+      "horario": "14:00-14:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación de la Antología El Caribe es un Cuento",
+      "participantes": "Guillermo Nieto Molina",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 70,
+      "fecha": "2026-03-22",
+      "horario": "14:30-15:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Las Zapatillas de Doña Pau",
+      "participantes": "Federico Santodomingo",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 71,
+      "fecha": "2026-03-22",
+      "horario": "15:00-15:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "El pulso del Cielo",
+      "participantes": "Guillermo Nieto Molina",
+      "info": "Presentado por Editorial RARECUCA",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 72,
+      "fecha": "2026-03-22",
+      "horario": "15:30-16:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Las Angustias del Silencio",
+      "participantes": "Freddy Castro Pérez",
+      "info": "Presentado por la editorial del taller literario CMZ",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 73,
+      "fecha": "2026-03-22",
+      "horario": "16:00-16:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Antología Reflejos",
+      "participantes": "Joel Cerpa Berdugo · Shirley Caro",
+      "info": "Presentado por la editorial del taller literario CMZ",
+      "sede": "Casa de la Cultura"
+    },
+    {
+      "item": 75,
+      "fecha": "2026-03-22",
+      "horario": "09:00-10:00",
+      "tipo": "PONENCIA",
+      "nombre": "La palabra nace del territorio: cultura, ambiente y memoria en los Montes de María",
+      "participantes": "Drina Pérez",
+      "info": "Reflexión sobre territorio, naturaleza y manifestaciones culturales en Montes de María",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 76,
+      "fecha": "2026-03-22",
+      "horario": "10:00-11:00",
+      "tipo": "TALLER DE LUTHERIA",
+      "nombre": "Enseñanza de luthería tradicional de gaitas",
+      "participantes": "Maestro Orlando Yepes",
+      "info": "Taller de luthería tradicional de gaitas",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 77,
+      "fecha": "2026-03-22",
+      "horario": "11:00-12:00",
+      "tipo": "CLINICA DE GAITA",
+      "nombre": "Enseñanza de gaitas sobre ritmos sanjacinteros",
+      "participantes": "Dionision Yepes · Gabriel Torregrosa · Rafael Pérez",
+      "info": "Clínica de gaitas sobre ritmos sanjacinteros",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 78,
+      "fecha": "2026-03-22",
+      "horario": "12:00-14:00",
+      "tipo": "PRESENTACIONES MUSICALES",
+      "nombre": "Intervención musical de escuelas de gaita y danza tradicional",
+      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe Avel Viana",
+      "info": "Presentación para amenizar el almuerzo",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 79,
+      "fecha": "2026-03-22",
+      "horario": "14:00-15:00",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Incidencia de Clemente Manuel Zabala en la internacionalización de los Gaiteros de San Jacinto",
+      "participantes": "Hernán Villa · Numas Gil Olivera · Miguel Mateo Manrique",
+      "info": "Conversatorio sobre el papel de Clemente Manuel Zabala en la historia de los gaiteros",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 80,
+      "fecha": "2026-03-22",
+      "horario": "15:00-16:00",
+      "tipo": "TALLER",
+      "nombre": "Enseñanza para crear Décimas y Repentismo",
+      "participantes": "Fundación Mi Gaita · Maestro Rafael Pérez García",
+      "info": "Taller de décimas y repentismo",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 81,
+      "fecha": "2026-03-22",
+      "horario": "16:00-17:30",
+      "tipo": "CONVERSATORIO",
+      "nombre": "Conversatorio e intervención musical de gaiteros de la Dinastía Yepes",
+      "participantes": "Gaitas y Tambores de San Jacinto",
+      "info": "Conversatorio con la familia Yepes sobre su vida, composiciones y trayectoria",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 82,
+      "fecha": "2026-03-22",
+      "horario": "19:00-20:00",
+      "tipo": "CUENTERIA TRADICIONAL",
+      "nombre": "Presentación de Rodrigo Salgado Pan Duro",
+      "participantes": "Maestro Rodrigo Salgado",
+      "info": "Show de cuentería y tradición oral",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 83,
+      "fecha": "2026-03-22",
+      "horario": "20:00-22:00",
+      "tipo": "CONCIERTO",
+      "nombre": "Concierto de música de gaita, oralidad y salsa",
+      "participantes": "Auténticos Gaiteros de San Jacinto · Grupo Mar Adentro",
+      "info": "Presentación de gaiteros y músicos de salsa y son cubano",
+      "sede": "Club de Leones"
+    },
+    {
+      "item": 84,
+      "fecha": "2026-03-22",
+      "horario": "14:00-15:00",
+      "tipo": "CONVERSACIÓN",
+      "nombre": "Pablo Lautario conversa con Fredy Chamorro Tovar sobre el libro Microdistancias literarias",
+      "participantes": "Pablo Lautaro · Fredy Chamorro Tovar",
+      "info": "Conversación sobre la concisión e intensidad expresiva del microrrelato",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 85,
+      "fecha": "2026-03-22",
+      "horario": "15:00-15:30",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Acto artístico",
+      "participantes": "Grupo del Pío XII",
+      "info": "",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 86,
+      "fecha": "2026-03-22",
+      "horario": "15:30-16:30",
+      "tipo": "PONENCIA",
+      "nombre": "Turismo y oralidad en los Montes de María: el territorio narrado como lectura del paisaje natural y cultural",
+      "participantes": "Berne Antonio González Villegas",
+      "info": "Ponencia sobre vínculo entre territorio y memoria narrada",
+      "sede": "Institución Educativa Pío XII"
+    },
+    {
+      "item": 87,
+      "fecha": "2026-03-22",
+      "horario": "09:00-16:00",
+      "tipo": "EXPOSICIONES",
+      "nombre": "Feria y Exposición Artesanal",
+      "participantes": "Maestras artesanas · Artesanías de Colombia",
+      "info": "Exhibición de productos artesanales de San Jacinto",
+      "sede": "Casa del Artesano"
+    },
+    {
+      "item": 88,
+      "fecha": "2026-03-22",
+      "horario": "10:00-12:00",
+      "tipo": "TALLER",
+      "nombre": "Rueda de Saberes con Maestras Artesanas",
+      "participantes": "Maestras artesanas · Artesanías de Colombia",
+      "info": "Espacio para compartir conocimientos y técnicas con demostración artesanal en vivo",
+      "sede": "Casa del Artesano"
+    },
+    {
+      "item": 89,
+      "fecha": "2026-03-22",
+      "horario": "15:00-16:00",
+      "tipo": "CONVERSACION",
+      "nombre": "Los miedos a la hora de vender tu artesanía",
+      "participantes": "Artesanías de Colombia",
+      "info": "Encuentro para fortalecer la confianza y comunicar el valor del trabajo artesanal",
+      "sede": "Casa del Artesano"
+    },
+    {
+      "item": 90,
+      "fecha": "2026-03-22",
+      "horario": "15:00-16:30",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación de novelas Congas y Los espectros del Hotel",
+      "participantes": "María Isabel Álvarez Chica · Gustavo Devoz Alfaro",
+      "info": "Presentación de las novelas y trayectoria de autores",
+      "sede": "Café Cerro Maco"
+    },
+    {
+      "item": 91,
+      "fecha": "2026-03-22",
+      "horario": "16:00-17:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Presentación de libro: Hasta que arda el silencio",
+      "participantes": "Carmen Daniela Anillo Movilla",
+      "info": "Viaje poético por territorios del Caribe y Colombia",
+      "sede": "Café Rastro"
+    },
+    {
+      "item": 92,
+      "fecha": "2026-03-22",
+      "horario": "16:00-17:00",
+      "tipo": "PRESENTACIÓN LIBROS",
+      "nombre": "Libro de cuentos: Sentada en el Pretil",
+      "participantes": "Velia Jirado",
+      "info": "Presentación del libro de cuentos",
+      "sede": "Café Montes de María"
+    },
+    {
+      "item": 93,
+      "fecha": "2026-03-22",
+      "horario": "17:00-19:00",
+      "tipo": "CLAUSURA",
+      "nombre": "Rueda de Gaita sanjacintera y Rueda Poética",
+      "participantes": "Músicos y poetas",
+      "info": "Participación de poetas asistentes y grupos musicales del colectivo de San Jacinto",
+      "sede": "Parque Central"
+    }
+  ]
+}

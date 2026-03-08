@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  agendaData,
+  buildDayJsonLd,
+  formatDateLong,
+  formatDateShort,
+  getAvailableDates,
+  getItemsByDate,
+} from "../lib/agenda";
+
+const dates = getAvailableDates();
+const firstDate = dates[0] || "2026-03-20";
+const dayItems = getItemsByDate(firstDate);
+const fullDate = formatDateLong(firstDate);
+
+const title = "FLIMM 2026 | Programacion oficial";
+const description =
+  "Programacion oficial de FLIMM 2026 en San Jacinto, Montes de Maria. Consulta actividades por dia, tipo de evento y lugar.";
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/" jsonLd={buildDayJsonLd(firstDate)}>
+  <main class="app" data-selected-date={firstDate}>
+    <header class="hero">
+      <img src="/logo.png" alt="Logo FLIMM" class="hero__logo" />
+      <p class="hero__kicker">Programacion oficial</p>
+      <h1>{agendaData.evento}</h1>
+      <p id="hero-subtitle" class="hero__subtitle">{fullDate} - San Jacinto, Montes de Maria</p>
+    </header>
+
+    <section class="panel" aria-labelledby="agenda-title">
+      <div class="panel__head">
+        <h2 id="agenda-title">Agenda del dia</h2>
+        <p id="agenda-meta" class="panel__meta">{fullDate} - {dayItems.length} actividades</p>
+      </div>
+
+      <div class="agenda-controls">
+        <nav id="day-tabs" class="day-tabs" aria-label="Seleccionar dia">
+          {dates.map((date) => (
+            <a class="day-tab" href={`/agenda/${date}/`} aria-current={date === firstDate ? "page" : undefined}>
+              {formatDateShort(date)}
+            </a>
+          ))}
+        </nav>
+
+        <section class="filters" aria-label="Filtros de agenda">
+          <div class="filter" id="venue-filter">
+            <button
+              id="venue-filter-btn"
+              class="filter__button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="venue-filter-menu"
+            >
+              Lugar: Todos
+            </button>
+            <div id="venue-filter-menu" class="filter__menu" hidden></div>
+          </div>
+
+          <div class="filter" id="type-filter">
+            <button
+              id="type-filter-btn"
+              class="filter__button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="type-filter-menu"
+            >
+              Tipo: Todos
+            </button>
+            <div id="type-filter-menu" class="filter__menu" hidden></div>
+          </div>
+        </section>
+      </div>
+
+      <div class="agenda-search">
+        <label class="agenda-search__label" for="search-input">Buscar por nombre o participantes</label>
+        <input
+          id="search-input"
+          class="agenda-search__input"
+          type="search"
+          placeholder="Ej: Gaitas de San Jacinto"
+          autocomplete="off"
+        />
+      </div>
+
+      <div id="agenda" class="timeline" aria-live="polite">
+        {dayItems.map((item) => (
+          <article class="card" data-type={item.tipo || ""}>
+            <button class="card__toggle" type="button" aria-expanded="false">
+              <span class="card__time">{item.horario || "Hora por confirmar"}</span>
+              <span class="card__content">
+                <span class="card__type">{item.tipo || "ACTIVIDAD"}</span>
+                <span class="card__title">{item.nombre || "Sin titulo"}</span>
+                <span class="card__venue">{item.sede ? `📍 ${item.sede}` : "📍 Sede por confirmar"}</span>
+              </span>
+              <span class="card__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="card__details" hidden>
+              <p class="card__info">{item.info || "Sin detalle"}</p>
+              <p class="card__participants">{item.participantes || "Por confirmar"}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Construido por: <strong>Luis Sarmiento</strong>.</p>
+    </footer>
+  </main>
+
+  <template id="activity-template">
+    <article class="card">
+      <button class="card__toggle" type="button" aria-expanded="false">
+        <span class="card__time"></span>
+        <span class="card__content">
+          <span class="card__type"></span>
+          <span class="card__title"></span>
+          <span class="card__venue"></span>
+        </span>
+        <span class="card__icon" aria-hidden="true">+</span>
+      </button>
+      <div class="card__details" hidden>
+        <p class="card__info"></p>
+        <p class="card__participants"></p>
+      </div>
+    </article>
+  </template>
+
+  <script type="module" src="/scripts/agenda-filters.js"></script>
+</BaseLayout>
