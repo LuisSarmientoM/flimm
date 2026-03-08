@@ -7,4 +7,7 @@ export default defineConfig({
   output: "static",
   trailingSlash: "always",
   integrations: [sitemap()],
+  devToolbar: {
+    enabled: false
+  }
 });
