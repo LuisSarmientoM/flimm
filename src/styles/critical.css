@@ -1,0 +1,260 @@
+:root {
+  --bg: #f5f3eb;
+  --ink: #1f2420;
+  --muted: #5d645f;
+  --surface: #fffdf7;
+  --line: #d6d0c2;
+  --accent: #1b6f63;
+  --shadow: 0 10px 28px rgba(31, 36, 32, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: linear-gradient(150deg, #edf4fc 0%, #f9f1e6 45%, #eef8f1 100%);
+}
+
+.bg-shape {
+  position: fixed;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.34;
+  filter: blur(20px);
+}
+
+.bg-shape--1 {
+  width: 260px;
+  height: 260px;
+  top: -90px;
+  right: -80px;
+  background: radial-gradient(circle at 30% 30%, #ffe4bd 0%, #ffd2a7 100%);
+}
+
+.bg-shape--2 {
+  width: 220px;
+  height: 220px;
+  left: -100px;
+  bottom: 60px;
+  background: radial-gradient(circle at 35% 35%, #cbe1ff 0%, #d9f0df 100%);
+}
+
+.app {
+  width: min(860px, 92vw);
+  margin: 24px auto 36px;
+  display: grid;
+  gap: 18px;
+}
+
+.hero,
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  background: linear-gradient(140deg, #fffef7 0%, #f5efde 100%);
+  padding: 20px;
+}
+
+.hero__logo {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+  display: block;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 8px;
+}
+
+.hero__kicker {
+  margin: 14px 0 6px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(1.6rem, 4.6vw, 2.3rem);
+  line-height: 1.1;
+}
+
+.hero__subtitle {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.panel {
+  background: var(--surface);
+  padding: 16px;
+}
+
+.panel__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  border-bottom: 1px dashed var(--line);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.panel h2,
+.panel__meta {
+  margin: 0;
+}
+
+.agenda-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.agenda-search {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.agenda-search__label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.agenda-search__input,
+.filter__button,
+.day-tab {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+}
+
+.agenda-search__input {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 0.92rem;
+}
+
+.day-tabs,
+.filters,
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.timeline {
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: clip;
+  background: #fff;
+}
+
+.card__toggle {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 92px 1fr 22px;
+  gap: 12px;
+  text-align: left;
+  align-items: center;
+}
+
+.card__content {
+  display: grid;
+  gap: 5px;
+}
+
+.card__type {
+  width: max-content;
+  font-size: 0.67rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: #f0ece0;
+  border: 1px solid #dbd3c1;
+  font-weight: 700;
+}
+
+.card__title {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.card__venue {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.card__details[hidden],
+.filter__menu[hidden] {
+  display: none;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.86rem;
+  padding: 4px 0 12px;
+}
+
+@media (max-width: 640px) {
+  .agenda-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .app {
+    width: min(760px, 94vw);
+    margin-top: 16px;
+  }
+
+  .hero,
+  .panel {
+    border-radius: 16px;
+  }
+
+  .card__toggle {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "time icon"
+      "content content";
+  }
+
+  .card__time {
+    grid-area: time;
+  }
+
+  .card__content {
+    grid-area: content;
+  }
+
+  .card__icon {
+    grid-area: icon;
+  }
+}
