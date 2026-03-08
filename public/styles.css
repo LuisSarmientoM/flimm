@@ -441,7 +441,7 @@ a.card__toggle:visited {
 }
 
 .site-footer p {
-  margin: 0;
+  margin: 6px;
 }
 
 @keyframes bg-drift {
