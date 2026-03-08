@@ -24,7 +24,29 @@ const todayDate = getTodayIsoDate();
 if (shouldRedirectToToday()) {
   window.location.replace(`/agenda/${todayDate}/`);
 } else if (selectedDate && agendaEl && metaEl && template) {
-  init();
+  queueAgendaHydration();
+}
+
+function queueAgendaHydration() {
+  const run = () => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(() => {
+        void init();
+      }, { timeout: 1200 });
+      return;
+    }
+
+    window.setTimeout(() => {
+      void init();
+    }, 240);
+  };
+
+  if (document.readyState === "complete") {
+    run();
+    return;
+  }
+
+  window.addEventListener("load", run, { once: true });
 }
 
 function shouldRedirectToToday() {
