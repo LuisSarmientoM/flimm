@@ -80,46 +80,29 @@ function getTodayIsoDate() {
   }).format(new Date());
 }
 
-function init() {
-  dayItems = collectDayItemsFromDom().sort((a, b) => toMinutes(a.horario) - toMinutes(b.horario));
+async function init() {
+  try {
+    const response = await fetch("/db.json");
+    if (!response.ok) {
+      throw new Error(`No se pudo leer db.json (${response.status})`);
+    }
 
-  if (dayItems.length === 0 && metaEl) {
-    metaEl.textContent = "No hay actividades para este dia";
-    return;
+    const data = await response.json();
+    const allItems = Array.isArray(data.programacion) ? data.programacion : [];
+    dayItems = allItems
+      .filter((item) => item.fecha === selectedDate)
+      .sort((a, b) => toMinutes(a.horario) - toMinutes(b.horario));
+
+    setupFilterToggles();
+    setupTextSearch();
+    wireCardToggles();
+    renderSelectedDay();
+  } catch (error) {
+    console.error(error);
+    if (metaEl) {
+      metaEl.textContent = "No se pudieron cargar filtros";
+    }
   }
-
-  setupFilterToggles();
-  setupTextSearch();
-  wireCardToggles();
-  renderSelectedDay();
-}
-
-function collectDayItemsFromDom() {
-  if (!agendaEl) {
-    return [];
-  }
-
-  const cards = [...agendaEl.querySelectorAll(".card")];
-  return cards.map((card) => {
-    const horario = card.querySelector(".card__time")?.textContent?.trim() || "";
-    const tipo = card.querySelector(".card__type")?.textContent?.trim() || "";
-    const nombre = card.querySelector(".card__title")?.textContent?.trim() || "";
-    const venueText = card.querySelector(".card__venue")?.textContent?.trim() || "";
-    const info = card.querySelector(".card__info")?.textContent?.trim() || "";
-    const participantes = card.querySelector(".card__participants")?.textContent?.trim() || "";
-
-    const sede = venueText.replace(/^📍\s*/, "").replace(/^Sede por confirmar$/i, "").trim();
-
-    return {
-      fecha: selectedDate,
-      horario,
-      tipo,
-      nombre,
-      sede,
-      info,
-      participantes,
-    };
-  });
 }
 
 function renderSelectedDay() {
