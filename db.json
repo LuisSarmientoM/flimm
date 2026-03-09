@@ -47,7 +47,7 @@
       "horario": "18:00-18:30",
       "tipo": "ACTO MUSICAL",
       "nombre": "Escuelas infantiles de música de gaita",
-      "participantes": "Escuela \"Gaiteros de San Jacinto\" · Fumigaita",
+      "participantes": "Escuelas \"Gaiteros de San Jacinto\", Fumigaita y Herederos Ancestrales de Corfoarte",
       "info": "Interpretaciones musicales por los integrantes de las escuelas.",
       "sede": "Casa de la Cultura"
     },
@@ -142,6 +142,16 @@
       "sede": "Casa de la Cultura"
     },
     {
+      "item": 13,
+      "fecha": "2026-03-21",
+      "horario": "14:45-15:00",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Grupo Musical de la IETA de San Juan Nepomuceno",
+      "participantes": "Estudiantes IETA",
+      "info": "",
+      "sede": "Casa de la Cultura"
+    },
+    {
       "item": 14,
       "fecha": "2026-03-21",
       "horario": "15:00-15:30",
@@ -217,7 +227,7 @@
       "horario": "12:30-14:00",
       "tipo": "ACTO MUSICAL",
       "nombre": "Música de gaita + danza tradicional",
-      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe · Avel/Abel Viana",
+      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe · Abel Viana",
       "info": "Presentación de escuelas de gaita acompañadas de danza para amenizar el almuerzo.",
       "sede": "Club de Leones"
     },
@@ -279,6 +289,16 @@
       "nombre": "Presentación poemario: \"Obumbrata\"",
       "participantes": "Joel Linares",
       "info": "Presentación del poemario por Joel Linares, director del Encuentro Poético del Sur.",
+      "sede": "Museo Comunitario de San Jacinto"
+    },
+    {
+      "item": 27,
+      "fecha": "2026-03-21",
+      "horario": "10:00-10:15",
+      "tipo": "ACTO ARTISTICO",
+      "nombre": "Escuela de Gaita Herederos Ancestrales ",
+      "participantes": "Cantos y ejecucion de la musica de gaita",
+      "info": "Perteneciente a Corfoarte",
       "sede": "Museo Comunitario de San Jacinto"
     },
     {
@@ -459,7 +479,7 @@
       "nombre": "Taller artes plásticas: \"Reescrituras visuales\"",
       "participantes": "Jaidivis Mora T.",
       "info": "Taller de collage a partir de la obra de Fernando Machado.",
-      "sede": "Ecléptica"
+      "sede": "Museo MOMA CENTRO CULTURAL ECLÉCTICA"
     },
     {
       "item": 46,
@@ -469,7 +489,7 @@
       "nombre": "Taller cómics: \"Mi primer cómic\"",
       "participantes": "Hélène Pineda · Adrián H. Castilla · Omar Pineda",
       "info": "Taller interactivo para jóvenes sobre creación de cómic y narrativa en viñetas.",
-      "sede": "Ecléptica"
+      "sede": "Museo MOMA CENTRO CULTURAL ECLÉCTICA"
     },
     {
       "item": 47,
@@ -479,7 +499,7 @@
       "nombre": "Taller creación literaria: \"Décimas para no olvidar\"",
       "participantes": "Brillith Carolina Sossa Wilches",
       "info": "Narrativas para construir memoria y cultura de paz desde la décima y la letanía.",
-      "sede": "Ecléptica"
+      "sede": "Museo MOMA CENTRO CULTURAL ECLÉCTICA"
     },
     {
       "item": 48,
@@ -777,7 +797,7 @@
       "horario": "12:00-14:00",
       "tipo": "PRESENTACIONES MUSICALES",
       "nombre": "Intervención musical de escuelas de gaita y danza tradicional",
-      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe Avel Viana",
+      "participantes": "Fundación Golpetambo · Fundación Mi Gaita · Escuela Hermanos Yepes · Corporación Macumbe Abel Viana",
       "info": "Presentación para amenizar el almuerzo",
       "sede": "Club de Leones"
     },
