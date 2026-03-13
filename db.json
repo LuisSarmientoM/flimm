@@ -136,7 +136,7 @@
       "fecha": "2026-03-21",
       "horario": "14:00-15:00",
       "tipo": "CONVERSATORIO",
-      "nombre": "Conversatorio: Antologías \"Cenizas al Viento\" y \"El Vuelo de la Cigarra\"",
+      "nombre": "Palabra narrada Antologia \"Cenizas al Viento\" y \"El Vuelo de la Cigarra\"",
       "participantes": "Favio Sarmiento Sequeda · Nolbert Alberto Arboleda",
       "info": "Presentados por Editorial de la Universidad San Buenaventura de Cartagena.",
       "sede": "Casa de la Cultura"
@@ -304,7 +304,7 @@
     {
       "item": 28,
       "fecha": "2026-03-21",
-      "horario": "10:00-11:00",
+      "horario": "10:15-11:00",
       "tipo": "PRESENTACIÓN LIBROS",
       "nombre": "Presentación proyecto: \"La Ruta de los 400 años de Plato (1636-2026)\"",
       "participantes": "Alfonso Amador Fernández · Germán Lajud Rico",
@@ -916,7 +916,7 @@
       "fecha": "2026-03-22",
       "horario": "15:00-16:30",
       "tipo": "PRESENTACIÓN LIBROS",
-      "nombre": "Presentación de novelas Congas y Los espectros del Hotel",
+      "nombre": "Presentación de novelas \"Congas\" y \"Los espectros del Hotel\"",
       "participantes": "María Isabel Álvarez Chica · Gustavo Devoz Alfaro",
       "info": "Presentación de las novelas y trayectoria de autores",
       "sede": "Café Cerro Maco"
